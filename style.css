@@ -1,0 +1,181 @@
+* {
+  font-family: Oxygen, "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-image: url("./assets/RazerChroa_1280x960.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  background-color: rgb(16, 6, 76);
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+header > img {
+  color: white;
+  border: 2px solid white;
+}
+li,
+a,
+.button {
+  font-family: fira code;
+  font-weight: 500;
+  font-size: 16px;
+  color: wheat;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  height: 40px;
+  border: none;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: yellowgreen;
+}
+.button {
+  padding: 9px 25px;
+  background-color: #079a6b;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.button:hover {
+  color: greenyellow;
+}
+.first-section {
+  /* height: 100vh; */
+  gap: 30px;
+  padding: 60px;
+  display: flex;
+  gap: 80px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+body > main > div > div > div.e1 > p {
+  padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+.e2 > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 90px 90px 90px 460px;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+  object-fit: cover;
+}
+.e1 {
+  color: whitesmoke;
+  align-items: flex-start;
+  width: 30%;
+  margin-left: 0px;
+}
+.e1 > h1 > span {
+  color: cyan;
+  text-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+.e1 > button {
+  border: 0;
+  padding: 12px;
+  background-color: cyan;
+  margin: 12px 12px;
+  border-radius: 9px;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+  transition: all 0.3s ease 0s;
+}
+.e1 > button > a{
+  color: black;
+}
+.e1 > button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
+hr {
+  border-radius: 30px;
+  background-color: salmon;
+  border: 2px solid salmon;
+  padding: 3px;
+  margin: 9px;
+  height: 10px;
+}
+
+.second-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 169px;
+  margin-bottom: 169px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.sec-element > img {
+  height: 120px;
+  width: 120px;
+}
+
+.sec-element {
+  height: 365px;
+  width: 347px;
+  background-color: #079a6b;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-basis: 200;
+}
+.end {
+  display: flex;
+  height: 200px;
+  width: auto;
+  justify-content: space-around;
+  background-color: brown;
+  padding: 30px;
+}
+.social > p {
+  padding: 9px 0px;
+}
+.com > p {
+  padding: 9px 0px;
+}
+
+@media (max-width: 600px) {
+  .end {
+    display: block;
+  }
+  main {
+    display: flex;
+    align-items: flex-end;
+  }
+}
